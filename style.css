@@ -18,6 +18,8 @@ body{
         background-color: var(--card-from-color);
           text-align: center;
           height: 100%;
+          transform-style: preserve-3d;
+          transition: transforme 3000ms ease-in-out;
       }
       
       .cartao__conteudo h3 {
